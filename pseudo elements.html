@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Webdesign</title>
+<link href="images/Favicon.jfif" type="image/jfif" rel="shortcut icon"/>
+<link rel="stylesheet." href="CSS/stylesheet.css" type="text/css"/>
+
+<style>
+    .menu ul li{
+        display: inline-block;
+    }
+    .menu ul li a{
+        text-decoration: none;
+        color: blue;
+        padding: 0px 20px;
+    }
+    .menu ul li:first-child a{
+        background-color: yellow;
+        color: rgb(128, 42, 42);
+    }
+    .menu ul li:last-child{
+        background-color: rgb(0, 0, 0);
+    }
+    .menu ul li:nth-child(2){
+        background-color: purple;
+    }
+    .menu ul li:nth-child(3){
+        background-color: yellowgreen;
+    }
+    .pseudo-element h1::first-letter{
+        background-color: blue;
+        color: white;
+        padding: 10px;
+    }
+    .pseudo-element p::first-line{
+        background-color: teal;
+        color: thistle;
+    }
+    .pseudo-element ul li{
+        list-style: none;
+    }
+    .pseudo-element ul li::marker{
+        color: rebeccapurple;
+    }
+    ::selection{
+        background-color: red;
+        color: rgb(255, 255, 255);
+    }
+    .pseudo-element ul li::before{
+        content: url(images/check.png);
+    }
+    .btn-style{
+        background-color: red;
+    	color: white;
+	    border: red;
+    	padding: 8px 20px;
+	    font-size: 20px;
+        display: inline-block;
+    }
+	.dropdown-menu:hover .dropdown-content{
+        display: block;
+	}
+	.dropdown-content ul li{
+        list-style-type: none;
+    }
+    .dropdown-content{
+        box-shadow:inset -2px -1px 26px -8px rgba(133,134,191,1);
+        width: 300px;
+        border-radius: 4px;
+        display: none;
+    }
+    .dropdown-content1{
+        box-shadow:inset -2px -1px 26px -8px rgba(133,134,191,1);
+        width: 300px;
+        border-radius: 4px;
+        display: none;
+    }
+    .dropdown ul{
+        position: absolute;
+        padding-left: 0px;
+    }
+    .dropdown ul li{
+        display: block;
+    }
+	.menu li.dropdown:hover ul.dropdown-content1{
+        display: block;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div class="menu">
+
+
+        <ul>
+            <li><a href="Index1.html">Home</a></li>
+            <li><a href="CSS.html">About Us</a></li>
+            <li class="dropdown"><a href="forms.html">Services</a>
+            
+                <ul class="dropdown-content1">
+                    <li>Profile</li>
+                    <li>Courses</li>
+                    <li>Subscription</li>
+                    <li>Orders</li>
+                    <li>Messages</li>
+                    <li>Change password</li>
+                    <li>Logout</li>
+                </ul>
+            </li>
+            <li><a href="My webpage.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    
+    <div class="pseudo-element ">
+
+        
+
+    <h1> Pseudo Elements</h1>
+    <p> It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts It is used to style special parts </p>
+
+
+    <ul>
+        <li>Web Design</li>
+        <li>Ul Designer</li>
+        <li>Ux Design</li>
+        <li>Graphic Designer</li>
+        <li>Front End</li>
+    </ul>
+
+    </div> 
+
+    <div class="dropdown-menu">
+        <div class="btn-style">My Dashboard</div>
+        <div class="dropdown-content">
+
+
+        <ul>    
+            <li>Profile</li>
+            <li>Courses</li>
+            <li>Subscription</li>
+            <li>Orders</li>
+            <li>Messages</li>
+            <li>Change password</li>
+            <li>Logout</li>
+        </ul>
+        </div>
+
+    </div>
+
+
+    <h1>Float Property</h1>
+
+    
+
+
+</body>
+</html>  

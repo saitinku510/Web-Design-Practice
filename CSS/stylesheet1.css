@@ -1,0 +1,74 @@
+td{
+    border: 2px solid grey;
+    padding: 20px;
+}
+.bg-image{
+    background-image: url("../Images/background-bg.jpg");
+    color: white;
+    height: 600px;
+    background-attachment: fixed;
+}
+.fav-bg{
+    background-image: url(../Images/Favicon.jfif);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.bg-image1{
+    background-image: url(../Images/backj.jpg);
+    color: white;
+    height: 334px;
+    background-position: center bottom;
+}
+.bg-cover{
+    background-image: url("../Images/bg-image2.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+
+}
+.bg-img3{
+    background-image: url("../Images/cropped-favicon.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overflow-visible{
+    overflow-x: auto;
+    overflow-y: scroll;
+    max-width: 600px;
+    height: 500px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.CSS-COmbinator ~ ul{
+    color: rgb(50, 21, 216);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    
+}
+.CSS-COmbinator + p{
+    color: orange;
+}
+.pseudo-class a:hover{
+    color: red;
+}
+.pseudo-class a:focus{
+        color: green;
+}
+.pseudo-class a:visited{
+    color: rgb(185, 212, 28);
+}
+.pseudo-class a:active{
+    color: black;
+}
+.pseudo-class a:target{
+    color: cadetblue;
+}
+.pseudo-class:hover{
+    background-color: chartreuse;
+}
+.pseudo ul:hover{
+    background-color: rgb(28, 131, 131);
+    color: white;
+}

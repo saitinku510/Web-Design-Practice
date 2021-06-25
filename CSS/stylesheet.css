@@ -1,0 +1,287 @@
+h2{
+	color:orange;
+}
+h1{
+	color:white;
+	background-color:maroon;
+}
+.selectors{
+	background-color: blue;
+	color:white
+}
+.class-selector{
+	background-color: yellow;
+}
+.green-bg{
+	background-color: green;
+}
+.green-bg h1{
+	color: rgb(211, 233, 19);
+}
+
+.id-selector{
+	background-color: rebeccapurple;
+}
+.class-selector.head h1{
+	color: rgb(87, 221, 60);
+}
+
+*{
+	margin: 5px;
+}
+
+#autoid{
+	background-color: indianred;
+}
+p{
+	color: maroon;
+}
+iframe{
+	width: 40%;
+	height: 500px;
+}
+.image-gallery{
+	background-color: hotpink;
+	color: indigo;
+}
+.block-level{
+	background-color: lawngreen;
+}
+.image-gallery img{
+	width: 22%;
+}
+
+.image-gallery p span{
+	color: rgb(255, 0, 0);
+}
+.or-list ol li{
+	list-style-type: lower-roman;
+}
+.un-list li{
+	list-style-type: symbols();
+	color: rgb(0, 13, 128);
+}
+
+.left-img-right-content p img{
+	width: 500px;
+	float: left;
+	
+}
+.left-content p img{
+	width: 500px;
+	float: right;
+}
+.web-design{
+	background-image:url("../Images/autophile.jpg");
+	background-position: right top;
+}
+.design{
+	background-image: url("../Images/autophile1.jpg");
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 60% 100%;
+}
+.design p{
+	color: rgb(0, 0, 0);
+}
+.web-design p{
+	color: tomato;
+}
+.parallax{
+	background-image: url("../Images/autophile.jpg");
+	height: 500px;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+ol li span{
+	color: rgb(255, 8, 0);
+}
+.des-list{
+	padding: 50px;
+}
+.left-image p img{
+	width: 500px;
+	float: left;
+}
+.right-image p img{
+	width: 500px;
+	float: right;
+}
+.bg-image{
+	background-image: url("../Images/backj.jpg");
+	background-repeat: no-repeat;
+	width: auto;
+}
+.bg-image p{
+	color: black;
+	text-align: center;
+}
+.table table,td,th{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	padding: 10px;
+}
+.table1 table,tr,td{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	padding: 10px;
+}
+.table2 table,tr,td{
+	border: 2px solid grey;
+	border-collapse: collapse;
+	padding: 10px;
+}
+.table3 table,tr,td{
+	border: 2px solid rgb(37, 21, 21);
+	border-collapse: collapse;
+	padding: 10px;
+	text-align: center;
+}
+.form{
+	width: 500px;
+}
+.form-control{
+	border: 1px solid grey;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.btn-style{
+	background-color: red;
+	color: white;
+	border: red;
+	padding: 8px 20px;
+	font-size: 20px;
+}
+.border-radius{
+	width: 350px;
+	height: 300px;
+	background-color: rgb(184, 86, 86);
+	border: 2px solid rgb(27, 22, 22);
+	border-radius: 10px;
+}
+.bg-origin{
+	background-image: url("../Images/Favicon.jfif");
+	border: 2px dotted green;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	padding: 30px;
+}
+.bg-clip{
+	background-color: greenyellow;
+	border: 2px dotted grey; /*Border shorthand property */
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	padding: 30px;
+}
+.border-div{
+	border-width: 5px;
+	border-color: rgb(43, 43, 36)1, 161, 131);
+	border-style: dotted;
+	width: 500px;
+	height: 500px;
+	border-radius: 30px;
+	border-left-style: groove;
+	border-right-style: double;
+	border-right-color: blue;
+	border-left-width: 40px;
+	border-top-left-radius:35px;
+	border-top-right-radius:0px;
+	outline: 5px dotted orange;
+	outline-style: double;
+	outline-width: 15px;
+	outline-color:pink;
+}
+.yellow-bg{
+	background-color: yellow;
+	width: 200px;
+	height: 200px;
+	color: white;
+	padding: 30px;
+	margin: 20px;
+	margin-top: 50px;
+	padding-top: 70px;
+	padding-left: 75px;
+}
+.text-property{
+	margin-top: 100px;
+}
+.text-property h1{
+	text-decoration: overline;
+	text-transform: uppercase;
+	text-indent: 50px;
+
+}
+.text-property ol li{
+	text-transform: capitalize;
+	text-indent: 100px;
+	line-height: 30px;
+	letter-spacing: -2px;
+	word-spacing: 10px;
+	text-shadow: 2px 2px grey;
+	direction: rtl;
+	vertical-align: baseline;
+}
+.bg-origins{
+	background-image: url("../Images/img.jpg");
+	border: 5px dotted grey;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	padding: 40px;
+}
+.bg-clips{
+	background-color:yellowgreen;
+	border: 3px solid blueviolet;
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+.border-class{
+	border-width: 5px;
+	border-color: brown;
+	border-style: double;
+	width: 500px;
+	height: 500px;
+	border-radius: 30px;
+	background-color: burlywood;
+	outline: 6px double orangered;
+	margin: 10px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 0%;
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 50px;
+	outline-style: groove;
+	outline-color: orchid;
+}
+.green-bgs{
+	background-color: rgb(89, 228, 54);
+	width: 150px;
+	height: 150px;
+	color: rgb(182, 80, 80);
+	padding: 30px;
+	margin: 20px;
+	margin-top: 30px;
+	padding-top: 50px;
+	padding-left: 55px;
+}
+.text-propertys{
+	margin-top: 50px;
+}
+.text-propertys h1{
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-indent: 40px;
+}
+.text-propertys ol li{
+	text-transform: capitalize;
+	text-indent: 50px;
+	line-height: 20px;
+	letter-spacing: -2px;
+	word-spacing: 10px;
+	text-shadow: 2px 2px grey;
+	direction: ltr;
+	vertical-align: baseline;
+}

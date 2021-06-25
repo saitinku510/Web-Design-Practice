@@ -1,0 +1,84 @@
+Introduce Yourself
+------------------
+-> Tell them a lill abt urself like name,breif of educational qualification shortly, and describe urself, hobbies, interests.
+
+Resume Building
+---------------
+
+name:
+phn no:
+email:
+
+professional summary: i'm A tech enthusiast who is actively looking for jobs in the field of web designing..........
+
+(prof summary shoulb be in 2-3lines)->also called as objective.
+
+Educational Qualifications
+--------------------------
+
+Arrange in table format
+
+Skills
+------
+1. HTML5.0 - profficient
+2. CSS3.0 - moderate
+3. javascript - 
+4. jQuery
+
+Experience
+----------
+
+-> 2016-2019 - Worked as a teacher in ABC School
+-> Roles And Responsibilities
+-> 2019-2021.
+-> Feb 2021 - April 2021 - Completed web design course in A2N Academy.
+
+Portfolio link and project
+--------------------------
+-> Add links of the work which u have done(assignments)(github links).
+
+Achievements
+------------
+-> Best Passing Out Student in College
+
+Other Details
+-------------
+  Father name
+  Place
+  Languages Known
+  Gender
+  Marital Status
+  
+Decleration
+-----------
+ I declare that i have mentioned the abouve detailsto my truest knowledge
+
+ sign                                                     date
+
+
+
+
+
+
+CANVA
+connect@a2nacademy.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

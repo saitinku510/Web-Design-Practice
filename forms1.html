@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Webdesign </title>
+<link href="https://img.icons8.com/bubbles/2x/monitor.png" type="image/png" rel="shortcut icon"/>
+<link href="CSS/stylesheet.css" type="text/css" rel="stylesheet">
+
+
+
+
+</head>
+<body style="font-family: 'Itim', cursive;">
+
+
+    <div class="forms1">
+
+    <H2 style="text-align: center;">Application Form for a Student</H2>
+
+    <br>
+
+    <form>
+        <label>Enter a date before 1998</label>
+    
+        <input type="date" name="date" id="date" max="1998-12-31"/>
+    
+        <br>
+    
+        <label>Enter a date after 1998</label>
+    
+        <input type="date" name="date" id="date" min="1999-01-01">
+    </form>
+    
+    
+    
+    <form>
+        <label>Birthday (date & time)</label>
+    
+        <input type="datetime-local" name="date" id="date"/>
+    
+    
+    
+    </form>
+    
+    
+    
+    <form class="form">
+    
+        <input type="number" class="form-control" name="num" id="num"/>
+        <br>
+    
+        <input type="email" placeholder="enter email" class="form-control" name="mail" id="name" required/>
+        <input type="file"/>
+        <br>
+
+        <input type="month" value="name" class="form-control"/> 
+
+        <input type="range" min="0" max="80"/> <br>
+
+        <input type="search" placeholder="search for something" class="form-control" name="" id=""/>
+    
+        <input type="tel" class="form-control" placeholder="91-949-454-8057" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}[0-9]{4}"/>
+    
+        <input type="time" class="form-control" name="" id=""/>
+
+
+
+        <input class="btn-style" type="submit"/>
+    
+    </form>
+
+    <form>
+
+        <label>Enter URL</label>
+        <input type="url" placeholder="enter url" class="form-control"/>
+
+        <input type="week" class="form-control"/>
+
+
+    
+        <input class="btn-style" value="submit" type="submit"/>
+
+
+
+    </form>
+    
+    
+
+    <form>
+
+        <h3>Select color</h3>
+        <input type="color" name="color" id="color"/>
+    
+        <br>
+    
+        <input type="button" name="button" id="button" value="Submit"/>
+        <input type="reset" value="reset" name="button" id="reset"/>
+    
+    
+    </form>
+    
+    
+    
+    <form>
+        <label for="dob">select DOB</label>
+        <input type="date" value="date" name="date" id="date"/>
+    </form>
+
+
+    <h2>Input Attribute</h2>
+    <ul>
+        <li>Read only</li>
+        <li>Disabled</li>
+
+
+    </ul>
+
+    <form>
+
+        <input type="text" class="form-control" value="Hello" name="" id="" readonly/>
+
+        <input type="number" value="+9426851" placeholder="some number" name="" id="" class="form-control" disabled/> 
+
+
+        <input type="submit" value="submit" class="btn-style"/>
+
+    </form>
+
+
+    <h2>Size Attribute</h2>
+
+    <form>
+        <input class="form-control" placeholder="enter something" type="text" size="30" required/>
+
+        <input type="text" class="form-control" value="enter your pin" required maxlength="6" name="pin" id="pin"/>
+
+        <input type="file" class="form-control" id="file" name="file" multiple/>
+
+
+
+
+        <input type="submit" value="submit" class="btn-style"/>
+
+    </form>
+
+    <h3>Place holder</h3>
+    <p> Place holder attribute gives hint to the user what to enter in the input field/p>
+
+    <h3>Autofocus</h3>
+
+    <form class="form" autocomplete="on">
+        <input type="text" class="form-control" placeholder="Enter name" id="name" name="name" autofocus/>
+
+        <input type="email" class="form-control" placeholder="Enter name" id="name" name="name" />
+
+        <input type="submit" value="submit" class="btn-style"/>
+
+
+    </form>
+
+    <form class="form">
+
+        <input type="image" width="10" height="40" class="form-control" src="Images/download.jpg" id="" name=""/>
+
+        <input type="submit" value="submit" class="btn-style"/>
+
+    </form>
+
+
+    <h2>Form Attribute</h2>
+    <ol>
+        <li>Autocomplete</li>
+    </ol>
+
+
+    <form action="Index1.html" method="POST" autocomplete="on" target="_blank" novalidate>
+
+        <input type="text" class="form-control" placeholder="Enter name" id="name" name="name" autofocus/>
+
+        <input type="email" class="form-control" placeholder="Enter name" id="name" name="name" />
+
+        <input type="submit" value="submit" class="btn-style"/>
+
+
+    </form>
+
+
+    <form action="tables.html">
+
+        <input list="browsers" class="form-control" name="browser" id="browser"/>
+
+        <datalist id="browsers">
+            <option value="IE"></option>
+            <option value="Mozilla"></option>
+            <option value="Chrome"></option>
+            <option value="EDGE"></option>
+
+
+        </datalist>
+
+        <select class="form-control">
+
+            <option value="IE">IE</option>
+            <option value="Mozilla">Mozilla</option>
+            <option value="Chrome">Chrome</option>
+            <option value="EDGE">EDGE</option>
+            
+
+        </select>
+
+    </form>
+
+
+    </div>
+
+    <div class="border-radius">
+        <form>Border Radius</form>
+        <label>Border is</label>
+        <input type="text" name="name" id="name" />
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
